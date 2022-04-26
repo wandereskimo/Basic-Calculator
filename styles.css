@@ -1,0 +1,83 @@
+body{
+    background-color: lightgray;
+}
+
+
+.numEl {
+    display: flex;
+    justify-content: center;
+}
+
+#num1-el {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: black;
+    color: white;
+}
+
+#num2-el {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: black;
+    color: white;
+}
+
+hr {
+    height:1vh;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.add {
+    padding: .5rem 2rem;
+    margin: 20px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    border-color: green;
+}
+.sub {
+    padding: .5rem 2rem;
+    margin: 20px;
+    color: white;
+    background-color: violet;
+    border-radius: 5px;
+    border-color: violet;
+}
+
+.multiply {
+    padding: .5rem 2rem;
+    margin: 20px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border-color: red;
+}
+.divide {
+    padding: .5rem 2rem;
+    margin: 20px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border-color: blue;
+    
+}
+
+#sum-el {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
